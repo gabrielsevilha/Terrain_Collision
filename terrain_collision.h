@@ -1,3 +1,5 @@
+//by Gabriel Sevilha <3
+
 #include<math.h>
 
 float getHeight2D(float x, float y, float* vertex, int sizeof_vertex){
