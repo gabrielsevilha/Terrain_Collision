@@ -6,8 +6,13 @@ float getHeight2D(float x, float y, float* vertex, int sizeof_vertex){
 	float min = vertex[0], max = vertex[(int)(sizeof_vertex/sizeof(float))-2];
 	int vec_min = 0, vec_max = 0;
 	for(int i = 0; i < (int)(sizeof_vertex/sizeof(float)); i+=2){
-		if(vertex[i] >= min && vertex[i] < x){ min = vertex[i]; vec_min = i; }
-		if(vertex[i] <= max && vertex[i] > x){ max = vertex[i]; vec_max = i; }
+		if(x >= vertex[i] && x <= vertex[i+2]){
+			min = vertex[i];
+			max = vertex[i+1];
+			vec_min = i;
+			vec_max = i+2;
+			break;
+		}
 	}
 	return vertex[vec_min+1]+(x-vertex[vec_min]) * (vertex[vec_max+1]-vertex[vec_min+1])/(vertex[vec_max]-vertex[vec_min]);
 }
