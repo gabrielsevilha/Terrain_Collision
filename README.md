@@ -1,2 +1,2 @@
 ![alt text](/Template.png)
-![](/terraindemo.gif)
+![](/demos/terraindemo.gif)
