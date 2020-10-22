@@ -2,7 +2,7 @@
 ![](/demos/terraindemo.gif) </br>
 (**game art**: https://szadiart.itch.io/pixel-platformer-world and https://rvros.itch.io/animated-pixel-hero)</br>
 
-#Observation:
+#Observation:<br/>
 For 3D, your terrain need be triangularize and can't have a overlapping of triangles in space X,Z
 
 #Exemple:
