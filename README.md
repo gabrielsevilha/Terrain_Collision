@@ -4,13 +4,22 @@
 
 Exemple:
 ```C
+//For 2D:
 #include"terrain_collision.h"
 int main(){
 	float object_x = 400, object_y = 300;
 	float terrain[] = {0,300, 100,400, 200,400...};
 	float height = getHeight2D(object_x,object_y,terrain,sizeof(terrain));
-	//For 3D, just use getHeight3D and swap object_y to object_z
 }
+
+//For3D:
+#include"terrain_collision.h"
+int main(){
+	float object_x = 3.2, object_z = 6.8;
+	float terrain[] = {9.7,0.5,0.3, 9.7,0.6,0.3...};
+	float height = getHeight3D(object_x,object_z,terrain,sizeof(terrain));
+}
+
 ```
 
 ***by Gabriel Sevilha <3***
