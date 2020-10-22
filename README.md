@@ -25,4 +25,4 @@ int main(){
 
 ```
 
-***by Gabriel Sevilha <3***
+***by: Gabriel Sevilha <3***
