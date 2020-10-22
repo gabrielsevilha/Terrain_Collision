@@ -12,7 +12,7 @@ int main(){
 	float height = getHeight2D(object_x,object_y,terrain,sizeof(terrain));
 }
 
-//For3D:
+//For 3D:
 #include"terrain_collision.h"
 int main(){
 	float object_x = 3.2, object_z = 6.8;
