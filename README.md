@@ -9,7 +9,7 @@ int main(){
 	float object_x = 400, object_y = 300;
 	float terrain[] = {0,300, 100,400, 200,400...};
 	float height = getHeight2D(object_x,object_y,terrain,sizeof(terrain));
-  //For 3D, just use getHeight3D and swap object_y to object_z
+	//For 3D, just use getHeight3D and swap object_y to object_z
 }
 ```
 
