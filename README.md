@@ -4,8 +4,8 @@
 
 **Observation:**<br/>
   * Your terrain need be store in an float array. for exemple:<br/>
-  	float 2D_Terrain[] = {X,Y, X,Y, X,Y...};
-	float 3D_Terrain[] = {X,Y,Z, X,Y,Z, X,Y,Z...};
+  	<t=4>float 2D_Terrain[] = {X,Y, X,Y, X,Y...}; <br/>
+	<t=4>float 3D_Terrain[] = {X,Y,Z, X,Y,Z, X,Y,Z...};
   * For 3D, your terrain need be triangularize and can't have a overlapping of triangles in space X,Z<br/>
 
 **Exemple:**
