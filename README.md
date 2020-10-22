@@ -5,7 +5,7 @@
 **Observation:**<br/>
 For 3D, your terrain need be triangularize and can't have a overlapping of triangles in space X,Z<br/>
 
-**xemple:**
+**Exemple:**
 ```C
 //For 2D:
 #include"terrain_collision.h"
