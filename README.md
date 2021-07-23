@@ -27,5 +27,3 @@ int main(){
 }
 
 ```
-
-***by: Gabriel Sevilha <3***
